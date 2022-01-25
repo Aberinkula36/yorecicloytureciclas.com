@@ -1,0 +1,32 @@
+
+.logo{
+	width: 70px;
+}
+
+.logofooter{
+	width: 150px;
+}
+
+.fab{
+	color: #ff5493;
+	margin: 20px;
+}
+
+.fas{
+	color: #ff7064;
+	margin: 20px;
+	
+}
+
+.foto{
+	width: 120px;
+}
+
+.menu a{
+	color: #666666;
+}
+
+.menu a:hover{
+	text-decoration: none;
+	color: #ff5493;
+}
