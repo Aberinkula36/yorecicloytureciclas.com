@@ -96,13 +96,13 @@ try {
     $mail->isSMTP();                                            // Set mailer to use SMTP
     $mail->Host       = 'smtp.gmail.com';  // Specify main and backup SMTP servers
     $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
-    $mail->Username   = 'pepesaezteruel@gmail.com';                     // SMTP username
-    $mail->Password   = 'Alegria2018!';                               // SMTP password
+    $mail->Username   = '';                     // SMTP username
+    $mail->Password   = '';                               // SMTP password
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;                                   // Enable TLS encryption, `ssl` also accepted
     $mail->Port       = 587;                                    // TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
 
     //Recipients
-    $mail->setFrom('pepesaezteruel@gmail.com', 'Yo Reciclo y Tú Reciclas');
+    $mail->setFrom('', 'Yo Reciclo y Tú Reciclas');
     $mail->addAddress($email);     // Add a recipient
     $mail->addAddress('jmsaezteruel@hotmail.com');
 
