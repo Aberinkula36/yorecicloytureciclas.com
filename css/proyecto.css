@@ -23,10 +23,10 @@
 }
 
 .menu a{
-	color: #666666;
+	color: #ffffff;
 }
 
 .menu a:hover{
 	text-decoration: none;
-	color: #ff5493;
+	color: #000000;
 }
